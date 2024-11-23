@@ -1,0 +1,225 @@
+@font-face {
+    font-family: Embed;
+    src: url(../fonts/EduAUVICWANTArrows-Medium.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Geist:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Geist:wght@100..900&display=swap');
+*{
+    color: #c0f9d8;
+}
+
+body{
+    background-image: url(../images11/3.jpg);
+
+}
+
+.container{
+    width: auto;
+    min-height: 800px;
+}
+
+.head{
+    position: relative;
+    background: linear-gradient(90deg, rgba(217,17,227,1) 0%, rgba(2,0,36,1) 100%);
+    border: 1px solid white;
+    border-radius: 30px;
+    /* position: fixed; */
+}
+
+.icon{
+    display: flex;
+    position: absolute;
+    top: 35px;
+    font-size: 20px;
+    right: 130px;
+}
+.icon i{
+    padding: 0px 2px;
+
+}
+
+.wellcom{
+    font-family: Embed;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.sign{
+    position: absolute;
+    top: 23px;
+    right: 10px;
+}
+.sign button{
+    background-color: #d911e3 ;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.men{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+}
+.logo div{
+    padding-left: 10px;
+}
+.menubar{
+    margin-top: -24px;
+}
+.menubar ul{
+    display: flex;
+    margin-left: 46px;
+}
+.menubar ul li{
+    padding: 10px;
+    list-style: none;
+    color: aliceblue;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+.Sunglasses{
+    position: relative;
+}
+.ll{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 31px;
+    left: -81px;
+}
+.ll li{
+    display: none;
+    color: #c0f9d8;
+}
+.Sunglasses:hover .ll li{
+    display: block;
+
+}
+a{
+    text-decoration: none;
+    color: #c0f9d8;
+}
+.search{
+    margin-top: -20px;
+    margin-left: 540px;
+    font-size: 20px;
+}
+
+.search ul{
+    display: flex;
+}
+.search ul li{
+    list-style: none;
+    color: aliceblue;
+    padding: 5px;
+    
+}
+.pro{
+    font-size: 20px;
+    display: flex;
+}
+.in1{
+    background: 0% 0%;
+    border: 2px solid #c0f9d8;
+    border-radius: 8px;
+    justify-content: baseline;
+
+}
+.in1::placeholder{
+    padding: 0px 12px;
+    color: rgb(188, 255, 199);
+} 
+.pro button{
+    background: 0% 0;
+    border: none;
+    color: #c6f5da;
+}
+.dd{
+    color: #c0f9d8;
+    text-shadow: 2px 2px 2px #efefef;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.dd:hover{
+    color: yellow;
+    text-shadow: 5px 5px 5px #efefef;
+
+}
+.about div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: -90px;
+}
+.pd{
+    color: #c0f9d8; 
+    font-size: 30px;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border-bottom: 2px dotted #d911e3;
+}
+.ps{
+    color: #c0f9d8;
+    font-size: 30px;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border-bottom: 2px dotted #d911e3;
+
+}
+.img1{
+    width: 50%;
+    height: auto;
+    filter: blur(10px);
+    margin-top: 100px;
+    align-items: center;
+    float: left;
+}
+.img1:hover{
+    filter: blur(0px);
+}
+.img2{
+    width: 50%;
+    height: 423px;
+    margin-top: 100px;
+    float: right;   
+}
+.img2:hover{
+    filter: brightness(0.4);
+}
+.artikl{
+    direction: ltr;
+    border: 3px solid #d911e3;
+    border-radius: 30px;
+    display: block;
+}
+.artikl h1{
+    font-size: 50px;
+    margin-top: 50px;
+    color: #d911e3;
+    text-shadow: 5px 5px 5px black;
+
+}
+.artikl p{
+    font-size: 20px;
+    margin-left: 20px;
+}
